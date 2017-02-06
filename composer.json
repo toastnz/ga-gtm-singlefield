@@ -1,0 +1,19 @@
+{
+    "name": "chrometoaster/ga-gtm-singlefield",
+    "description": "Adds single field to CMS settings section to hold GA or GTM code. Template snippets need to be inserted to theme templates manually.",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "Google", "Google Analytics", "GA", "Google Tag Manager", "GTM"],
+    "authors": [
+        {
+            "name": "Michal Kleiner",
+            "email": "michal.kleiner@chrometoaster.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1"
+    },
+    "minimum-stability": "stable",
+    "license": "BSD-3-Clause"
+}

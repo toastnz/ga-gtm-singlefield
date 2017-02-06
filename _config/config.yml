@@ -1,0 +1,9 @@
+---
+Name: ga-gtm-singlefield
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+SiteConfig:
+  extensions:
+    - GASiteConfigExtension
