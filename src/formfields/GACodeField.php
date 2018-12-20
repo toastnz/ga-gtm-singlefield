@@ -1,5 +1,9 @@
 <?php
 
+namespace Chrometoaster\GA_GTM\Formfields;
+
+use SilverStripe\Forms\TextField;
+
 /**
  * Class GACodeField
  */

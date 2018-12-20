@@ -5,7 +5,7 @@ Comes with Google snippets that need to be included in your theme's templates.
 
 ## Requirements
 
-* SilverStripe 3.1 and above
+* SilverStripe 4.0 and above
 
 ## Installation
 
@@ -33,17 +33,17 @@ Place two template includes into your theme's main template, e.g. Page.ss.
     <meta charset="utf-8">
     <title itemprop="name">$Title</title>
 
-    <% include GA_GTM_head %>
+    <% include Chrometoaster\GA_GTM\GA_GTM_head %>
 ```
 
 #### Body
 
-`<% include GA_GTM_body %>` directly after the opening `<body>` tag:
+`<% include Chrometoaster\GA_GTM\GA_GTM_body %>` directly after the opening `<body>` tag:
 
 ```html
 </head>
 <body>
-    <% include GA_GTM_body %>
+    <% include Chrometoaster\GA_GTM\GA_GTM_body %>
 ```
 
 
