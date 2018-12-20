@@ -1,8 +1,8 @@
 <?php
 
-namespace Chrometoaster\GaGtmSinglefield\Extensions;
+namespace Chrometoaster\GA_GTM\Extensions;
 
-use Chrometoaster\GaGtmSinglefield\Formfields\GACodeField;
+use Chrometoaster\GA_GTM\Formfields\GACodeField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\ORM\DataExtension;
 

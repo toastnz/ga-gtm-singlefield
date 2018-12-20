@@ -1,6 +1,6 @@
 <?php
 
-namespace Chrometoaster\GaGtmSinglefield\Formfields;
+namespace Chrometoaster\GA_GTM\Formfields;
 
 use SilverStripe\Forms\TextField;
 

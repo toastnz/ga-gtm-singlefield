@@ -3,4 +3,4 @@ Name: ga-gtm-singlefield
 ---
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - Chrometoaster\GaGtmSinglefield\Extensions\GASiteConfigExtension
+    - Chrometoaster\GA_GTM\Extensions\GASiteConfigExtension

@@ -33,17 +33,17 @@ Place two template includes into your theme's main template, e.g. Page.ss.
     <meta charset="utf-8">
     <title itemprop="name">$Title</title>
 
-    <% include Chrometoaster\GaGtmSinglefield\GA_GTM_head %>
+    <% include Chrometoaster\GA_GTM\GA_GTM_head %>
 ```
 
 #### Body
 
-`<% include Chrometoaster\GaGtmSinglefield\GA_GTM_body %>` directly after the opening `<body>` tag:
+`<% include Chrometoaster\GA_GTM\GA_GTM_body %>` directly after the opening `<body>` tag:
 
 ```html
 </head>
 <body>
-    <% include Chrometoaster\GaGtmSinglefield\GA_GTM_body %>
+    <% include Chrometoaster\GA_GTM\GA_GTM_body %>
 ```
 
 
