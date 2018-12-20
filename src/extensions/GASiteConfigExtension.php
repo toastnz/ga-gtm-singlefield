@@ -1,5 +1,11 @@
 <?php
 
+namespace Chrometoaster\GaGtmSinglefield\Extensions;
+
+use Chrometoaster\GaGtmSinglefield\Formfields\GACodeField;
+use SilverStripe\Forms\FieldList;
+use SilverStripe\ORM\DataExtension;
+
 /**
  * Class GASiteConfig
  *

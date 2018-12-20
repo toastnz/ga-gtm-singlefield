@@ -1,4 +1,4 @@
-Copyright (c) 2017, Chrometoaster New Media Ltd.
+Copyright (c) 2018, Chrometoaster Ltd.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

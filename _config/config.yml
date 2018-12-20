@@ -1,9 +1,6 @@
 ---
 Name: ga-gtm-singlefield
-After:
-  - 'framework/*'
-  - 'cms/*'
 ---
-SiteConfig:
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - GASiteConfigExtension
+    - Chrometoaster\GaGtmSinglefield\Extensions\GASiteConfigExtension
