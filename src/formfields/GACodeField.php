@@ -35,7 +35,9 @@ class GACodeField extends TextField
         if ($parts[0] === "GTM" && (mb_strlen($parts[1]) >= 4) && (mb_strlen($parts[1]) <= 8)) {
             return true;
 
-        } else if (($parts[0] === "UA") && mb_strlen($parts[1]) === 8 && mb_strlen($parts[2]) === 1) {
+        } else if (($parts[0] === "UA")
+            && (mb_strlen($parts[1]) >= 8 && mb_strlen($parts[1]) < 10)
+            && (mb_strlen($parts[2]) >= 1 && mb_strlen($parts[2]) < 3)) {
             return true;
 
         } else {
